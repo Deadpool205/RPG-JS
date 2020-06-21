@@ -43,7 +43,7 @@ class System {
 	saveItemData() {
 		console.warn("Creating data to save...");
 		let dataItems = [];
-		this.items.forEach(Item => {
+		this.items.forEach.call(Item => {
 			dataItems.push(Item);
 		});
 		
@@ -59,7 +59,7 @@ class System {
 	savePlayerData() {
 		console.warn("Creating data to save...");
 		let dataPlayers = [];
-		this.players.forEach(Player => {
+		this.players.forEach.call(Player => {
 			let tempPlayer = Player;
 			tempPlayer.inventory = tempPlayer.inventory.toArray();
 			tempPlayer.friends = tempPlayer.friends.toArray();
