@@ -27,7 +27,7 @@ const embeds =
 {
 	classes: function() 
 	{
-		return new Discord.RichEmbed()
+		return new Discord.MessageEmbed()
 		.setTitle("Classes")
 		.setDescription("Choose one of the following as your class!")
 		.addField("Warrior","Bonus points on attack and defense, although slower.")
@@ -36,7 +36,7 @@ const embeds =
 	},
 	traits: function() 
 	{
-		return new Discord.RichEmbed()
+		return new Discord.MessageEmbed()
 		.setTitle("Traits")
 		.setDescription("Choose one of the following as your trait!")
 		.addField("Tough","HP+",true)
@@ -48,7 +48,7 @@ const embeds =
 	},
 	profMng: function() 
 	{
-		return new Discord.RichEmbed()
+		return new Discord.MessageEmbed()
 		.setTitle("Profile Management")
 		.setDescription("Say one of the below options to manage your profile.")
 		.addField("Change name","Change your player profile's name (cost: 100.000 gold)")
