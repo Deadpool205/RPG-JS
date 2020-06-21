@@ -62,7 +62,7 @@ self.login(token);
 
 self.on("ready", () => 
 {
-	self.owner = self.fetchUser("716381568566034512");
+	self.owner = self.users.fetch("211227683466641408");
 	console.log("No errors have been encountered!");
 	console.warn(`Logged into Discord as ${self.user.tag}\n`);
 })
@@ -275,7 +275,7 @@ self.on("message", msg =>
 								let friendToAdd = system.players.get(m2.content);
 								if (!friendToAdd) 
 								{
-									self.fetchUser(m2.content).then(User => 
+									self.users.fetch(m2.content).then(User => 
 									{
 										m2.channel.send(`${User.tag} has not created a player profile yet, would you like me to invite them?`);
 
