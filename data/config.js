@@ -1,9 +1,11 @@
 {
-    "devMode":true,
-    "forceMain":true,
-    "tokens":{
-        "dev":"NzE2MzgxNTY4NTY2MDM0NTEy.XtQUSw.gJdd2VqGsyxcnUKQZnI2V0BFDxY",
-        "main":""
+    "devMode" : true,
+    "forceMain" : "true",
+    "tokens" : 
+    {
+        "dev":"BOT TOKEN HERE",
+        "main":"BOT TOKEN DONT SHARE OR DISCORD GETS MAD"
     },
+    
     "inviteLink":"https://discord.gg/7HSGxvV"
 }
