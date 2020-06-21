@@ -62,7 +62,7 @@ self.login(token);
 
 self.on("ready", () => 
 {
-	self.owner = self.fetchUser("211227683466641408");
+	self.owner = self.fetchUser("716381568566034512");
 	console.log("No errors have been encountered!");
 	console.warn(`Logged into Discord as ${self.user.tag}\n`);
 })

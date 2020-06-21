@@ -184,8 +184,8 @@ class Player {
 		this.gold = stats.gold;
 		this.experience = stats.experience;
 		this.level = stats.level;
-		this.inventory = stats.inventory.toCollection();
-		this.friends = stats.friends.toCollection();
+		this.inventory = stats.inventory;//.toCollection();
+		this.friends = stats.friends;//.toCollection();
 		this.stats = stats.stats; // lul
 		this.equipment = stats.equipment;
 	}
