@@ -2,8 +2,8 @@
     "devMode":true,
     "forceMain":true,
     "tokens":{
-        "dev":"",
+        "dev":"NzE2MzgxNTY4NTY2MDM0NTEy.XtQUSw.gJdd2VqGsyxcnUKQZnI2V0BFDxY",
         "main":""
     },
-    "inviteLink":""
+    "inviteLink":"https://discord.gg/7HSGxvV"
 }
